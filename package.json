@@ -5,7 +5,7 @@
     "url": "https://github.com/blackuy/react-native-twilio-video-webrtc.git"
   },
   "homepage": "https://github.com/blackuy/react-native-twilio-video-webrtc",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Twilio Video WebRTC for React Native.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,10 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
+  "author": "Gaston Morixe <gaston@gastonmorixe.com>",
+  "contributors": [
+    "Martin Fernandez <fmartin91@gmail.com>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.9.32",
@@ -40,7 +43,10 @@
     "gulp-react-docs": "^1.0.1",
     "gulp-tap": "^1.0.1",
     "prettier": "^2.8.8",
-    "react-docgen": "^2.15.0"
+    "react-docgen": "^2.15.0",
+    "semver": "5.7.2",
+    "tough-cookie": "4.1.4",
+    "word-wrap": "^1.2.5"
   },
   "peerDependencies": {
     "expo": ">=47.0.0",
