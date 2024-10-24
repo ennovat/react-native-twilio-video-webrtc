@@ -1,5 +1,11 @@
 # Twilio Video (WebRTC) for React Native
 
+> [!NOTE]  
+> **October 21 2024:** _Good news!_ Twilio just announced **Twilio Video service is here to stay**, they are reversing the deprecation decision. [Here's their official announcement.](https://www.twilio.com/en-us/blog/twilio-video-update-2024). 
+> 
+> If you or your company need React Native support, contact me [gaston@gastonmorixe.com](mailto:gaston@gastonmorixe.com). We have premium react native features  like PiP support, Live Activities, Typescript, and many more. - Gaston
+
+
 [![react-native-twilio-video-webrtc](./docs/react-native-banner.svg)](https://github.com/blackuy/react-native-twilio-video-webrtc)
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/blackuy/react-native-twilio-video-webrtc)](https://github.com/blackuy/react-native-twilio-video-webrtc/stargazers)
@@ -27,13 +33,13 @@ People using a version < 1.0.1 please move to 1.0.1 since the project changed a 
 #### Option A: yarn
 
 ```shell
-yarn add https://github.com/blackuy/react-native-twilio-video-webrtc
+yarn add react-native-twilio-video-webrtc
 ```
 
 #### Option B: npm
 
 ```shell
-npm install https://github.com/blackuy/react-native-twilio-video-webrtc --save
+npm install react-native-twilio-video-webrtc
 ```
 
 ### Usage with Expo
@@ -134,7 +140,7 @@ To enable camera usage and microphone usage you will need to add the following e
 
 #### Known Issues
 
-TwilioVideo version 1.3.8 (latest) has the following know issues.
+TwilioVideo version 1.3.8 has the following know issues.
 
 - Participant disconnect event can take up to 120 seconds to occur. [Issue 99](https://github.com/twilio/video-quickstart-swift/issues/99)
 - AVPlayer audio content does not mix properly with Room audio. [Issue 62](https://github.com/twilio/video-quickstart-objc/issues/62)
@@ -144,7 +150,7 @@ TwilioVideo version 1.3.8 (latest) has the following know issues.
 As with iOS, make sure the package is installed:
 
 ```shell
-yarn add https://github.com/blackuy/react-native-twilio-video-webrtc
+yarn add react-native-twilio-video-webrtc
 ```
 
 Then add the library to your `settings.gradle` file:
